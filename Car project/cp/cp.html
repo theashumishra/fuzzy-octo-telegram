@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Product</title>
+    <link rel="stylesheet" href="cp.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a New Car Listing</h1>
+        <form id="createProductForm">
+            <label for="title">Car Title</label>
+            <input type="text" id="title" name="title" placeholder="Enter car title" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="4" placeholder="Enter a description" required></textarea>
+
+            <label for="image">Car Image</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <button type="submit" class="submit-btn">Create Product</button>
+        </form>
+    </div>
+
+    <script src="cp.js"></script>
+</body>
+</html>
